@@ -75,7 +75,9 @@ export default function Home() {
               onClick={() => selectAnswer(true)}
               className="cursor-pointer hover:opacity-80 group text-center rounded-lg border border-transparent px-5 py-4 transition-colors bg-gray-100 border-neutral-700 dark:bg-neutral-800/30"
             >
-              <h2 className={`mb-3 text-2xl font-semibold`}>That's a bird!</h2>
+              <h2 className={`mb-3 text-2xl font-semibold`}>
+                {"That's a bird!"}
+              </h2>
               <h3 className="text-2xl">👌</h3>
             </div>
           </>
