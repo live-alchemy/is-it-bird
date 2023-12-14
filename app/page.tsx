@@ -17,9 +17,9 @@ export default function Home() {
     setStep(step + 1);
   }
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-4 lg:p-24">
+    <main className="flex gap-4 min-h-screen flex-col items-center justify-start md:justify-center p-4 mt-4 lg:mt-0 lg:p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between text-xl lg:flex">
-        <h1 className="text-slate-900 fixed text-4xl font-semibold left-0 top-0 flex w-full justify-center lg:static lg:w-auto">
+        <h1 className="text-slate-900 text-4xl font-semibold left-0 top-4 flex w-full justify-center lg:static lg:w-auto">
           Is it bird?
         </h1>
         <div className="fixed bottom-0 left-0 flex h-16 w-full items-end justify-center lg:static lg:h-auto lg:w-auto lg:bg-none">
@@ -38,7 +38,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="mb-64 lg:mb-32 grid gap-4 text-center lg:max-w-5xl lg:w-full lg:mb-0 grid-cols-2 lg:text-left">
+      <div className="lg:mb-32 grid gap-4 text-center lg:max-w-5xl lg:w-full grid-cols-2 lg:text-left">
         <p className="col-span-2 text-2xl font-semibold text-slate-900">
           {step === 0
             ? "Play the audio clip then tell us what you think."
