@@ -1,0 +1,34 @@
+[
+  {
+    "audio": "Bird.wav",
+    "isBird": true
+  },
+  {
+    "audio": "NotBird.wav",
+    "isBird": false
+  },
+  {
+    "audio": "Bird2.wav",
+    "isBird": true
+  },
+  {
+    "audio": "Bird3.wav",
+    "isBird": true
+  },
+  {
+    "audio": "NotBird2.wav",
+    "isBird": false
+  },
+  {
+    "audio": "Bird4.wav",
+    "isBird": true
+  },
+  {
+    "audio": "Bird5.wav",
+    "isBird": true
+  },
+  {
+    "audio": "NotBird3.wav",
+    "isBird": false
+  }
+]
